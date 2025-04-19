@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+}
+
+.navbar {
+    background-color: #000;
+}
+
+.nav-word {
+    color: white;
+    display: flex;
+    gap: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+}
+
+.nav-word li {
+    cursor: pointer;
+}
+
+.bottom-1-word {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.bottom-1-word h1 {
+    font-size: 51.3px;
+    color: white;
+    font-weight: 500;
+}
+
+.bottom-1-word h3 {
+    font-size: 24.28px;
+    color: #fff;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.learn {
+    width: 130px;
+    height: 44px;
+    border-radius: 50px;
+    border: none;
+    background-color: #0071E3;
+    color: #FFFFFF;
+    font-size: 16.87px;
+}
+
+.buy {
+    width: 73px;
+    height: 44px;
+    background-color: transparent;
+    border: 1px solid #0071E3;
+    color: #0071E3;
+    margin-left: 10px;
+    border-radius: 50px;
+    font-size: 16.73px;
+}
+
+.bottom-1-button {
+    gap: 30px;
+    padding-top: 15px;
+}
+
+.bottom-1 {
+    background-color: #000;
+    width: 100%;
+    /* height: 95.8vh; */
+    background-image: url(bottom-img/background-mac.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bottom-1-word p {
+    color: white;
+    font-size: 18.54px;
+    padding-top: 400px;
+    padding-bottom: 50px;
+}
+
+.bottom-2 {
+    background-image: url(bottom-img/back-mac-air.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100vw 100%;
+    text-align: center;
+    padding-top: 40px;
+    width: 100vw;
+}
+
+.bottom-2-word h1 {
+    font-size: 51.3px;
+    color: #000;
+    font-weight: 500;
+}
+.bottom-2-word h3{
+    font-size: 24.28px;
+    color: #000;
+    font-weight: 400;
+    padding-top: 5px;
+}
+.bottom-2-word p{
+    color: black;
+    font-size: 18.54px;
+    padding-top: 400px;
+    padding-bottom: 30px;
+}
+.bottom-3-word{
+    padding-top: 50px;
+}
+.bottom-3{
+    background-image: url(bottom-img/air.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100vw;
+    /* height: 90vh; */
+    padding-bottom: 20px;
+    align-items: center;
+    text-align: center;
+}
+button{
+    cursor: pointer;
+}
+.bottom-3-word h3{
+    font-size: 24.28px;
+    color: #000;
+    font-weight: 400;
+    padding-top: 15px;
+}
+.bottom-3-word p{
+    color: black;
+    font-size: 18.54px;
+    padding-top: 430px;
+    padding-bottom: 30px;
+}
+.pro{
+    width: 942px;
+    height: 580px;
+    background-image: url(bottom-img/pro.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;   
+}
+.bottom-4{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.six h3{
+    color: white;
+    font-size: 36.72px;
+    font-weight:500;
+    padding-top: 50px;
+}
+.learn1{
+    width: 130px;
+    height: 44px;
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-size: 16.87px;
+}
+.buy1{
+    width: 73px;
+    height: 44px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-left: 10px;
+    border-radius: 50px;
+    font-size: 16.73px;
+}
+.pro h3{
+    color: white;
+    font-size: 36.72px;
+    font-weight:500;
+    padding-top: 380px;
+}
+.pro h4,.six h4{
+    font-size: 18.21px;
+    font-weight: 400;
+    color: white;
+}
+.birinchisi{
+    display: flex;
+}
+.six{
+    width: 942px;
+    height: 580px;
+    margin-left: 10px;
+    background-image: url(bottom-img/16.png);
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;   
+}
+.container{
+    margin: 0 auto;
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+}
+.ikki{
+    margin-top: 10px;
+    display: flex;
+}
+
+.watch{
+    width: 942px;
+    height: 580px;
+    background-image: url(bottom-img/watch.png);
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    text-align: center; 
+}
+.watch h4{
+    font-size: 18.38px;
+    font-weight: 400;
+}
+.birinchisi,.ikki,.uch{
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding-left: 3px;
+}
+.mac-komp{
+    width: 942px;
+    height: 580px;
+    background-image: url(bottom-img/mac\ komp.png);
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    text-align: center;
+    margin-left: 10px;
+}
+.mac-komp h4{
+    font-size: 18.21px;
+    font-weight: 400;
+    color: black;
+}
+.ayfon h4{
+    font-size: 18.38px;
+    font-weight: 350;
+    padding-top: 3px;
+}
+.ayfon{
+    width: 942px;
+    height: 580px;
+    background-image: url(bottom-img/ayfon.png);
+    padding-right: 15px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    text-align: center;
+}
+.get{
+    width: 150px;
+    height: 44px;
+    border-radius: 50px;
+    border: none;
+    background-color: #0071E3;
+    color: #fff;
+    font-size: 16.87px;
+}
+.credit{
+    width: 942px;
+    height: 580px;
+    background-image: url(bottom-img/credit.png);
+    padding-right: 15px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    text-align: center;
+    margin-left: 10px;
+}
+.buyu{
+    width: 150px;
+    height: 44px;
+    border-radius: 50px;
+    border: none;
+    border: 1px solid #0071E3;
+    background-color: transparent;
+    color: #0071E3;
+    font-size: 16.87px;
+}
+.uch{
+    display: flex;
+}
+.messi{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+@media only screen and(max-width:1916px){
+    .birinchisi{
+        align-items: center;
+        justify-content: center;
+    }
+}
